@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+.main-container{
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: minmax(100px, 300px) minmax(100px, 300px) minmax(100px, 280px) minmax(100px, 280px);
+    grid-template-rows:repeat(2, minmax(250px, 300px));
+    grid-gap: 30px;
+    /* grid-template-columns: repeat(4, minmax(1fr 1fr)); */
+    /* grid-template-rows:  repeat(2, minmax(1fr 1fr)); */
+    grid-template-areas: 
+    "daniel     daniel      jonathan     kira"
+    "janette    patrick     patrick      kira "; 
+}
+
+.daniel-container{
+    grid-area:daniel;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    color:hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.daniel-name{
+    width: 50%;
+    min-height: 50px;
+    /* border:2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 18px;
+    margin-top: 25px;
+}
+
+.daniel-name-container {
+    padding-left: 15px;
+}
+
+.daniel-name-container span {
+    font-size: 13px;
+    opacity: 50%;
+}
+
+.daniel-container img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid hsl(263, 55%, 52%) ;
+}
+
+
+.daniel-rev-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.daniel-rev{
+    font-size: 23px;
+    /* border:2px solid black; */
+    padding-left:25px;
+    padding-right: 40px;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.daniel-rev2{
+    font-size:13px;
+    line-height: 20px;
+    opacity: 70%;
+    /* border: 2px solid black; */
+    padding-left: 25px;
+    padding-right: 35px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.jonathan{
+    grid-area: jonathan;
+    background-color: hsl(217, 19%, 35%);
+    color:hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+
+.jonathan img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+
+.kira{
+    grid-area:kira;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.kira img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.jeanette{
+    grid-area:janette;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.jeanette img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.patrick{
+    grid-area:patrick;
+    border-radius: 10px;
+    background-color: hsl(219, 29%, 14%);
+    color:hsl(0, 0%, 100%);
+
+}
+
+.patrick img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+

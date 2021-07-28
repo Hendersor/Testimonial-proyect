@@ -38,7 +38,6 @@ body{
 .daniel-name{
     width: 50%;
     min-height: 50px;
-    /* border:2px solid black; */
     display: flex;
     flex-wrap: wrap;
     padding-left: 18px;
@@ -70,7 +69,6 @@ body{
 
 .daniel-rev{
     font-size: 23px;
-    /* border:2px solid black; */
     padding-left:25px;
     padding-right: 40px;
     text-align: left;
@@ -91,47 +89,179 @@ body{
 
 
 
+/*Jonathan's part*/
 
-
-.jonathan{
+.jonathan-container{
     grid-area: jonathan;
     background-color: hsl(217, 19%, 35%);
     color:hsl(0, 0%, 100%);
     border-radius: 10px;
 }
 
+.jonathan-name{
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 18px;
+    margin-top: 25px;
+}
+.jonathan-name-container {
+    padding-left: 15px;
+}
 
-.jonathan img{
+.jonathan-name-container span {
+    font-size: 13px;
+    opacity: 50%;
+}
+
+.jonathan-container img{
     width: 40px;
     height: 40px;
     border-radius: 25px;
 }
 
 
-.kira{
+.jonathan-rev-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.jonathan-rev{
+    font-size: 23px;
+    padding-left:25px;
+    padding-right: 40px;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.jonathan-rev2{
+    font-size:13px;
+    line-height: 20px;
+    opacity: 70%;
+    padding-left: 25px;
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*Kira's part*/
+
+.kira-container{
     grid-area:kira;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
 }
 
-.kira img{
+.kira-name{
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 18px;
+    margin-top: 25px;
+}
+
+.kira-name-container {
+    padding-left: 15px;
+}
+
+.kira-name-container span {
+    font-size: 13px;
+    opacity: 50%;
+}
+.kira-container img{
     width: 40px;
     height: 40px;
     border-radius: 25px;
 }
 
-.jeanette{
+.kira-rev-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.kira-rev{
+    font-size: 23px;
+    padding-left:25px;
+    padding-right: 40px;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.kira-rev2{
+    font-size:13px;
+    line-height: 20px;
+    opacity: 70%;
+    padding-left: 25px;
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/******/
+
+/* Jeanette container*/
+
+.jeanette-container{
     grid-area:janette;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
 }
 
-.jeanette img{
+.jeanette-name{
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 18px;
+    margin-top: 25px;
+}
+
+.jeanette-name-container {
+    padding-left: 15px;
+}
+
+.jeanette-name-container span {
+    font-size: 13px;
+    opacity: 50%;
+}
+
+.jeanette-container img{
     width: 40px;
     height: 40px;
     border-radius: 25px;
 }
+.jeanette-rev-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
 
+.jeanette-rev{
+    font-size: 23px;
+    padding-left:25px;
+    padding-right: 60px;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+
+.jeanette-rev2{
+    font-size:13px;
+    line-height: 20px;
+    opacity: 70%;
+    padding-left: 25px;
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/****/
+
+/*Patrick's part*/
 .patrick{
     grid-area:patrick;
     border-radius: 10px;
@@ -140,9 +270,50 @@ body{
 
 }
 
+.patrick-name{
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 18px;
+    margin-top: 25px;
+}
+
+.patrick-name-container {
+    padding-left: 15px;
+}
+
+.patrick-name-container span {
+    font-size: 13px;
+    opacity: 50%;
+}
+
 .patrick img{
     width: 40px;
     height: 40px;
     border-radius: 25px;
 }
 
+.patrick-rev-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.patrick-rev{
+    font-size: 23px;
+    padding-left:25px;
+    padding-right: 60px;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.patrick-rev2{
+    font-size:13px;
+    line-height: 20px;
+    opacity: 70%;
+    padding-left: 25px;
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
